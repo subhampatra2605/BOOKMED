@@ -1,0 +1,2 @@
+const mongoose= require("mongoose");
+mongoose.connect("mongodb+srv://subhampatra2605:UAEHepi1QXbq7dHV@subhamapi.jhkjdtg.mongodb.net/awtProject")?console.log("######## Database connected ########"):console.log("######## Failed to connect with database ########");

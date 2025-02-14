@@ -1,0 +1,101 @@
+/* Contact.css */
+
+.contact-container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    color: #155724;
+  }
+  
+  /* Contact Section Styles */
+.contact-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.contact-section .btn {
+  font-size: 20px;
+  padding: 15px 30px;
+  background-color: #dc3545; /* Red button color */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.contact-section .btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Add styles for the review and service buttons */
+.review-section .btn,
+.services-section .btn {
+  margin-top: 10px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* Text color */
+  padding: 20px 0; /* Padding top and bottom */
+  text-align: center; /* Center align text */
+}

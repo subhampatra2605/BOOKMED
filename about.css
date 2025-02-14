@@ -1,0 +1,69 @@
+/* about.css */
+
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .highlights-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .what-we-offer-section {
+    background-color: #eaeaea;
+    padding: 20px;
+  }
+  
+  .additional-info-section {
+    padding: 20px;
+  }
+  
+  /* Additional styles as needed */
+  
+  /* Contact Section Styles */
+.contact-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.contact-section .btn {
+  font-size: 20px;
+  padding: 15px 30px;
+  background-color: #dc3545; /* Red button color */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.contact-section .btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Add styles for the review and service buttons */
+.review-section .btn,
+.services-section .btn {
+  margin-top: 10px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* Text color */
+  padding: 20px 0; /* Padding top and bottom */
+  text-align: center; /* Center align text */
+}

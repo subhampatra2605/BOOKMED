@@ -1,0 +1,17 @@
+/* header.css */
+
+.logo {
+    height: 60px; /* Adjust the height of the logo */
+    width: auto; /* Let the width adjust automatically */
+    margin-right: 20px; /* Add some right margin to the logo */
+  }
+  
+  .navbar-brand {
+    padding: 0; /* Remove padding from the navbar brand */
+  }
+  
+  .container {
+    padding-left: 20px; /* Add padding to the left of the container */
+    padding-right: 20px; /* Add padding to the right of the container */
+  }
+  

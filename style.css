@@ -1,0 +1,58 @@
+/* Style for SignUp component */
+.register {
+    margin-top: 50px;
+  }
+  
+  .SIcontainer {
+    margin: 0 auto;
+  }
+  
+  .SIcontainer .components {
+    border-radius: 10px;
+  }
+  
+  .SIinputBox {
+    border-radius: 5px;
+  }
+  
+  .SIappButton {
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .SIappButton:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style for Login component */
+  .login {
+    margin-top: 50px;
+  }
+  
+  .appButton {
+    margin-top: 20px;
+  }
+  
+  /* Common style for both components */
+  .col-form-label {
+    font-weight: bold;
+  }
+  
+  .border {
+    margin-top: 20px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  
+  .text-light {
+    color: #f8f9fa !important;
+  }
+  
